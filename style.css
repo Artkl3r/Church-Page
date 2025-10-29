@@ -1,0 +1,33 @@
+@media (min-width: 320px) {
+body {
+    font-size: 16px;
+    padding: 10px;
+    width: 280px;
+    height: 280px;
+}
+
+img{
+    width: 280px;
+    height: 280px;
+}
+}
+/* A partir de 768px, adiciona estilos para tablets */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    img{
+    width: 480px;
+    height: 480px;
+}
+}
+
+/* A partir de 1024px, adiciona estilos para desktops */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+        padding: 30px;
+    }
+}
